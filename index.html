@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fresh Nest — Home & Carpet Cleaning in Connecticut</title>
+<title>Sumaq Wasi LLC — Home & Carpet Cleaning in Connecticut</title>
 <meta name="description" content="A fresh start for your Connecticut home. Request home cleaning, deep cleaning, carpet care and move-in or move-out cleaning directly on WhatsApp.">
 <meta name="theme-color" content="#143e38">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%23123f3c'/%3E%3Cpath d='M50 16C66 33 76 45 76 61a26 26 0 1 1-52 0c0-16 10-28 26-45Z' fill='%23f5c870'/%3E%3Cpath d='M42 67c5 4 14 2 17-6' fill='none' stroke='%23123f3c' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E" />
@@ -14,7 +14,7 @@
 </style></head>
 <body>
 <div class="topline">A little less cleaning. <span>A lot more living.</span> · Connecticut</div>
-<header><nav class="shell nav" aria-label="Main navigation"><a class="brand" href="#home"><span class="mark" aria-hidden="true">✦</span><span>fresh nest<small>CLEANING SERVICES</small></span></a><div class="links"><a href="#services">Our services</a><a href="#care">Our approach</a><a href="#faq">FAQs</a></div><a class="btn" href="#quote">Get a free quote <span aria-hidden="true">↗</span></a></nav></header>
+<header><nav class="shell nav" aria-label="Main navigation"><a class="brand" href="#home"><span class="mark" aria-hidden="true">✦</span><span>Sumaq Wasi<small>LLC · CLEANING SERVICES</small></span></a><div class="links"><a href="#services">Our services</a><a href="#care">Our approach</a><a href="#faq">FAQs</a></div><a class="btn" href="#quote">Get a free quote <span aria-hidden="true">↗</span></a></nav></header>
 <main>
 <section class="hero" id="home"><div class="shell hero-grid"><div class="hero-copy"><span class="kicker">Home cleaning in Connecticut</span><h1>A clean home.<br>A fresh start.<br><em>More time for you.</em></h1><p>From everyday upkeep to a deep seasonal reset. Let us take care of the cleaning, so you can enjoy coming home.</p><div class="actions"><a class="btn" href="#quote">Find your fresh start <span class="arrow" aria-hidden="true">↗</span></a><a class="btn ghost" href="#services">Explore services</a></div><div class="hero-note"><span>✓ Personalized requests</span><span>✓ Chat with us on WhatsApp</span></div></div><div class="photo-frame"><img class="hero-photo" src="assets/hero-home.webp" width="1440" height="960" alt="Bright, welcoming living room with a cream sofa and textured rug" fetchpriority="high"><span class="photo-badge">A little care goes a long way</span><div class="photo-tag"><span>THE FEELING OF FRESH</span><strong>Your favorite place.<br>Beautifully cared for.</strong></div></div></div></section>
 <div class="ribbon"><div class="shell"><span>Residential cleaning</span><span>Deep cleaning</span><span>Carpet care</span><span>Move-in & move-out</span></div></div>
@@ -47,12 +47,12 @@
 <details><summary>Does submitting the form confirm my appointment?</summary><p>No. The form prepares a WhatsApp message. Once you send it, we'll discuss availability, scope and price with you before confirming an appointment.</p></details>
 <details><summary>Do you serve my town in Connecticut?</summary><p>Include your town or ZIP code in your request, and we'll confirm coverage and scheduling directly with you.</p></details></div></div></section>
 </main>
-<footer><div class="shell"><div class="footer-top"><div><a class="brand" href="#home"><span class="mark" aria-hidden="true">✦</span><span>fresh nest<small>CLEANING SERVICES</small></span></a><p>A fresh space for the life you love.</p></div><a class="btn light" href="#quote">Let's talk about your home ↗</a></div><div class="footer-bottom"><span>© 2026 Fresh Nest Cleaning · Connecticut</span><a href="tel:+18608654341">+1 (860) 865-4341</a></div></div></footer>
-<a class="float-wa" href="https://wa.me/18608654341?text=Hi%21%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener noreferrer" aria-label="Chat with Fresh Nest on WhatsApp">WhatsApp ↗</a>
+<footer><div class="shell"><div class="footer-top"><div><a class="brand" href="#home"><span class="mark" aria-hidden="true">✦</span><span>Sumaq Wasi<small>LLC · CLEANING SERVICES</small></span></a><p>A fresh space for the life you love.</p></div><a class="btn light" href="#quote">Let's talk about your home ↗</a></div><div class="footer-bottom"><span>© 2026 Sumaq Wasi LLC · Connecticut</span><a href="tel:+18608654341">+1 (860) 865-4341</a></div></div></footer>
+<a class="float-wa" href="https://wa.me/18608654341?text=Hi%21%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener noreferrer" aria-label="Chat with Sumaq Wasi LLC on WhatsApp">WhatsApp ↗</a>
 <script>
 const form=document.getElementById("cleaning-request");
 const labels={name:"Name",phone:"Phone",email:"Email",town:"Town / ZIP",service:"Service",frequency:"Frequency",bedrooms:"Bedrooms",bathrooms:"Bathrooms",date:"Preferred date",details:"Notes"};
-function buildMessage(data){return "Hi Fresh Nest! I'd like a cleaning quote.\n\n"+Object.entries(labels).map(([key,label])=>label+": "+(String(data.get(key)||"").trim()||"Not specified")).join("\n")+"\n\nPlease confirm pricing and availability. Thank you!";}
+function buildMessage(data){return "Hi Sumaq Wasi LLC! I'd like a cleaning quote.\n\n"+Object.entries(labels).map(([key,label])=>label+": "+(String(data.get(key)||"").trim()||"Not specified")).join("\n")+"\n\nPlease confirm pricing and availability. Thank you!";}
 function whatsappUrl(data){return "https://wa.me/18608654341?text="+encodeURIComponent(buildMessage(data));}
 form.addEventListener("submit",event=>{event.preventDefault();if(!form.reportValidity())return;document.getElementById("request-status").textContent="Opening WhatsApp. Tap Send there to deliver your request.";window.location.assign(whatsappUrl(new FormData(form)));});
 document.querySelectorAll("[data-service]").forEach(link=>link.addEventListener("click",()=>{form.elements.service.value=link.dataset.service;}));
